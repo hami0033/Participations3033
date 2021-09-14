@@ -29,7 +29,7 @@ namespace WPF_Vowels_and_Consonants
         private void btnEnter_Click_1(object sender, RoutedEventArgs e)
         {
             lstConsonants.Items.Clear();
-            lstConsonants.Items.Clear();
+            lstVowels.Items.Clear();
 
             string word = txtWord.Text;
 
