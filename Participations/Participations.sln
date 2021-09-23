@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFToys-Classes", "WPFToys-Classes\WPFToys-Classes.csproj", "{91BF61A4-45F5-486B-AD57-6B620156C43C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList-WPF", "ContactList-WPF\ContactList-WPF.csproj", "{CB2CE79D-A43A-4743-8119-AB50DEB6DD69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{91BF61A4-45F5-486B-AD57-6B620156C43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91BF61A4-45F5-486B-AD57-6B620156C43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91BF61A4-45F5-486B-AD57-6B620156C43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2CE79D-A43A-4743-8119-AB50DEB6DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2CE79D-A43A-4743-8119-AB50DEB6DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2CE79D-A43A-4743-8119-AB50DEB6DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2CE79D-A43A-4743-8119-AB50DEB6DD69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
