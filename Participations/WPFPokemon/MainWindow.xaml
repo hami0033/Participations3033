@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPFPokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFPokemon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,0,0,0" Source="Pokemon.jpg" Stretch="Fill"/>
+
+
+        <ComboBox x:Name="cboPokemon" HorizontalAlignment="Left" Margin="376,87,0,0" VerticalAlignment="Top" Width="120"/>
+        <Image x:Name="imgPhoto" HorizontalAlignment="Left" Height="170" Margin="400,217,0,0" VerticalAlignment="Top" Width="194"/>
+        <Label Content="Choose a Pokemon:" HorizontalAlignment="Left" Height="28" Margin="230,81,0,0" VerticalAlignment="Top" Width="118" Background="White" Opacity="0.8"/>
+        <TextBox x:Name="txtWeight" HorizontalAlignment="Left" Margin="209,254,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" SelectionBrush="#FF3EAAFF" Background="#FFFBFFAE"/>
+        <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Margin="209,306,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Background="#FFFAFF88"/>
+        <Label Content="Weight:" HorizontalAlignment="Left" Margin="209,228,0,0" VerticalAlignment="Top" Background="#FFE6AFAF" Opacity="0.785" Foreground="Black"/>
+        <Label Content="Height:" HorizontalAlignment="Left" Margin="209,280,0,0" VerticalAlignment="Top" Background="#FFF9B2B2" Opacity="0.8"/>
+
+    </Grid>
+</Window>
